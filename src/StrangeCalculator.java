@@ -9,6 +9,7 @@ public class StrangeCalculator {
         value1 = input.nextInt();
         System.out.println("Podaj drugą wartość: ");
         value2 = input.nextInt();
+        input.close();
 
         if(value1>value2){
             return sum(value1, value2);
